@@ -29,193 +29,264 @@
     <main class="main">
       <header class="header">
         <div class="container">
-          <div class="header-inner"><a class="logo" href="#">LoremIpsum.<span>Net</span></a>
-            <ul class="nav">
-              <li class="nav-item"><a class="nav-item__link" href="#">Бизнес</a></li>
-              <li class="nav-item"><a class="nav-item__link" href="#target-about">О нас</a></li>
-              <li class="nav-item"><a class="nav-item__link" href="#">Цены</a></li>
-              <li class="nav-item"><a class="nav-item__link" href="#target-order">Оформить заказ</a></li>
-            </ul>
+          <div class="header-inner">
+            <ul class="menu">
+              <li class="menu__item"><a class="menu__link" href="/"><span>Поездки</span></a></li>
+            </ul><a class="login" href="/"><span class="login__inner"><span class="login__name">Заболоцкий К.О</span><span class="login__icon">
+                  <svg>
+                    <use xlink:href="img/sprites/sprite.svg#logout"></use>
+                  </svg></span></span></a>
           </div>
         </div>
       </header>
       <div class="page-wrapper">
-        <section class="hello" id="target-about">
-          <div class="hello__bg bg-cover"><img src="img/hello-bg.jpg"></div>
-          <div class="container">
-            <div class="hello-inner">
-              <h1><span>Lorem ipsum</span> dolor sit ametconsectetur <span>adipiscing</span></h1>
-              <div class="hello-content">
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
-                <ul>
-                  <li>
-                    <svg>
-                      <use xlink:href="img/sprites/sprite.svg#list"></use>
-                    </svg>Totam rem aperiam eaque ipsa
-                  </li>
-                  <li>
-                    <svg>
-                      <use xlink:href="img/sprites/sprite.svg#list"></use>
-                    </svg>Sit voluptatem accusantium doloremque laudantium
-                  </li>
-                  <li>
-                    <svg>
-                      <use xlink:href="img/sprites/sprite.svg#list"></use>
-                    </svg>Sed ut perspiciatis, unde omnis iste natus error
-                  </li>
-                </ul>
-              </div>
-              <div class="hello-buttons">
-                <button class="btn btn--blue btn--small" type="button"><span>заказать</span></button>
-                <button class="btn btn--black btn--small" type="button"><span>подробнее</span></button>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="info" id="target-order">
-          <div class="info__bg bg-cover"><img src="img/info-bg.png"></div>
-          <div class="container">
-            <div class="info-top">
-              <h2>Оформление  <span>Заказа</span></h2>
-              <p>Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
-            </div>
-            <div class="info-steps">
-              <div class="info-steps__center"><span class="info-steps__points">
-                  <svg>
-                    <use xlink:href="img/sprites/sprite.svg#points"></use>
-                  </svg></span>
-                <div class="info-step">
-                  <div class="info-step__circle">
-                    <svg>
-                      <use xlink:href="img/sprites/sprite.svg#step-circle"></use>
-                    </svg><span class="info-step__icon">
-                      <svg>
-                        <use xlink:href="img/sprites/sprite.svg#step-1"></use>
-                      </svg></span>
-                  </div>
-                  <p class="info-step__text">Lorem ipsum dolor sit amet</p>
-                </div>
-                <div class="info-step">
-                  <div class="info-step__circle">
-                    <svg>
-                      <use xlink:href="img/sprites/sprite.svg#step-circle"></use>
-                    </svg><span class="info-step__icon">
-                      <svg>
-                        <use xlink:href="img/sprites/sprite.svg#step-2"></use>
-                      </svg></span>
-                  </div>
-                  <p class="info-step__text">Сonsecteturadipiscing elit</p>
-                </div>
-                <div class="info-step">
-                  <div class="info-step__circle">
-                    <svg>
-                      <use xlink:href="img/sprites/sprite.svg#step-circle"></use>
-                    </svg><span class="info-step__icon">
-                      <svg>
-                        <use xlink:href="img/sprites/sprite.svg#step-3"></use>
-                      </svg></span>
-                  </div>
-                  <p class="info-step__text">Sed do eiusmod tempor</p>
-                </div>
-                <div class="info-step">
-                  <div class="info-step__circle">
-                    <svg>
-                      <use xlink:href="img/sprites/sprite.svg#step-circle"></use>
-                    </svg><span class="info-step__icon">
-                      <svg>
-                        <use xlink:href="img/sprites/sprite.svg#step-4"></use>
-                      </svg></span>
-                  </div>
-                  <p class="info-step__text">Esse cillum dolore eu fugiat</p>
-                </div>
-                <div class="info-step">
-                  <div class="info-step__circle">
-                    <svg>
-                      <use xlink:href="img/sprites/sprite.svg#step-circle"></use>
-                    </svg><span class="info-step__icon">
-                      <svg>
-                        <use xlink:href="img/sprites/sprite.svg#step-5"></use>
-                      </svg></span>
-                  </div>
-                  <p class="info-step__text">Excepteur sint occaecat cupidatat non proident</p>
-                </div>
-              </div>
-            </div>
-            <form class="info-form" action="/" method="post">
-              <div class="info-form__column form__column--inputs">
-                <div class="nice-select__wrap">
-                  <select id="nice-select">
-                    <option>Sed ut perspiciatis</option>
-                    <option>Nemo enim ipsam</option>
-                    <option>Et harum quidem</option>
-                    <option>Temporibus autem</option>
-                    <option>Itaque earum rerum</option>
-                    <option>Sed ut perspiciatis</option>
-                    <option>Nemo enim ipsam</option>
-                    <option>Et harum quidem</option>
-                    <option>Temporibus autem</option>
-                    <option>Itaque earum rerum</option>
-                  </select>
-                </div>
-              </div>
-              <div class="info-form__column form__column--inputs">
-                <input class="form-input" type="email" name="email" placeholder="Ваш e-mail">
-              </div>
-              <div class="info-form__column form__column--inputs">
-                <input class="form-input" type="text" name="name" placeholder="Ваше имя">
-              </div>
-              <div class="info-form__column form__column--slider">
-                <div class="info-slider">
-                  <div class="info-slider__top">
-                    <p>Sed ut perspiciatis, unde omnis iste natus</p><span class="info-slider__percent"><span id="ui-slider-percent" class="js-slider-percent">75</span> %</span>
-                  </div>
-                  <div class="info-slider__wrap">
-                    <div class="js-slider" id="ui-slider"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="info-form__column form__column--inputs">
-                <div class="file">
-                  <input type="file" id="fileUpload" name="file">
-                  <label class="file-wrap" for="fileUpload"><span class="file__icon">
-                      <svg>
-                        <use xlink:href="img/sprites/sprite.svg#file"></use>
-                      </svg></span><span>Прикрепить файл</span></label>
-                </div>
-              </div>
-              <div class="info-form__column form__column--button">
-                <button class="btn btn--blue btn--big"><span>Отправить</span></button>
-              </div>
-            </form>
-          </div>
-        </section>
-      </div>
-      <footer class="footer">
         <div class="container">
-          <div class="footer-inner">
-            <p class="footer__copyright">© 2018 «LOREMIPSUM.NET» Все права защищены.</p>
-            <div class="footer-items">
-              <div class="footer-item"><span class="footer-link"><span class="footer-link__icon">
+          <div class="title">
+            <h1 class="title__value">Мои поездки</h1>
+            <div class="title__button">
+              <button class="btn btn--blue"><span class="btn__icon">
+                  <svg>
+                    <use xlink:href="img/sprites/sprite.svg#plus"></use>
+                  </svg></span><span>Оформить поездку</span></button>
+            </div>
+          </div>
+          <div class="settings">
+            <div class="settings__left">
+              <div class="settings__col">
+                <div class="settings__period">
+                  <div class="settings__period-item"><span class="settings__period-label">Период с:</span>
+                    <div class="settings__input settings__period-input">
+                      <input class="form-input form-input--period form-input--active" type="text" name="date1" placeholder="Выбрать..." value="22.02.2024"><span class="settings__input-icon">
+                        <svg>
+                          <use xlink:href="img/sprites/sprite.svg#calendar"></use>
+                        </svg></span><span class="settings__input-delete">
+                        <svg>
+                          <use xlink:href="img/sprites/sprite.svg#close"></use>
+                        </svg></span>
+                    </div>
+                  </div>
+                  <div class="settings__period-item"><span class="settings__period-label">по:</span>
+                    <div class="settings__input settings__period-input">
+                      <input class="form-input form-input--period" type="text" name="date2" placeholder="Выбрать..."><span class="settings__input-icon">
+                        <svg>
+                          <use xlink:href="img/sprites/sprite.svg#calendar"></use>
+                        </svg></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="settings__col">
+                <div class="settings__input settings__search-input">
+                  <input class="form-input form-input--search" type="text" name="search" placeholder="Поиск..."><span class="settings__input-icon">
                     <svg>
-                      <use xlink:href="img/sprites/sprite.svg#qiwi"></use>
-                    </svg></span>QIWI wallet</span><span class="footer-link"><span class="footer-link__icon">
+                      <use xlink:href="img/sprites/sprite.svg#search"></use>
+                    </svg></span>
+                </div>
+              </div>
+              <div class="settings__col"><span class="settings__clear"><span class="settings__clear-icon">
                     <svg>
-                      <use xlink:href="img/sprites/sprite.svg#ym"></use>
-                    </svg></span>Yandex Money</span><span class="footer-link"><span class="footer-link__icon">
-                    <svg>
-                      <use xlink:href="img/sprites/sprite.svg#wm"></use>
-                    </svg></span>Web Money</span></div>
-              <div class="footer-item"><a class="footer-link" href="mailto:info@ipsum228.com"><span class="footer-link__icon">
-                    <svg>
-                      <use xlink:href="img/sprites/sprite.svg#email"></use>
-                    </svg></span>info@ipsum228.com</a><a class="footer-link" href="#"><span class="footer-link__icon">
-                    <svg>
-                      <use xlink:href="img/sprites/sprite.svg#vk"></use>
-                    </svg></span>Мы вконтакте</a></div>
+                      <use xlink:href="img/sprites/sprite.svg#clear"></use>
+                    </svg></span><span>Сбросить все</span></span></div>
+            </div>
+            <div class="settings__right">
+              <div class="checkbox">
+                <input type="checkbox" name="check" id="check">
+                <label for="check"><span class="checkbox__box"></span>Показать архивные поездки</label>
+              </div>
+            </div>
+          </div>
+          <div class="line">
+            <div class="line__inner"></div>
+          </div>
+          <div class="list">
+            <div class="list__scroll">
+              <div class="card">
+                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000115</span></div>
+                <div class="card__col"><span class="card__label">Дата поездки</span>
+                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col"><span class="card__label">Город</span>
+                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва, Ярославль, Ижевск, Владимир</span></div>
+                </div>
+                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
+              </div>
+              <div class="card">
+                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000117</span></div>
+                <div class="card__col"><span class="card__label">Дата поездки</span>
+                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col"><span class="card__label">Город</span>
+                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва</span></div>
+                </div>
+                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
+              </div>
+              <div class="card">
+                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000074</span></div>
+                <div class="card__col"><span class="card__label">Дата поездки</span>
+                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col"><span class="card__label">Город</span>
+                  <div class="card__dynamic"><span class="card__value card__value--max-width">Кременчуг-Константиновское, Петропавловск-Камчатский, Новосибирск, Волгоград</span>
+                    <div class="help"><span class="help__icon">
+                        <svg>
+                          <use xlink:href="img/sprites/sprite.svg#help"></use>
+                        </svg></span>
+                      <div class="help__content">Кременчуг-Константиновское, Петропавловск-Камчатский, Новосибирск, Волгоград, Саратов</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
+              </div>
+              <div class="card">
+                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000115</span></div>
+                <div class="card__col"><span class="card__label">Дата поездки</span>
+                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col"><span class="card__label">Город</span>
+                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва, Ярославль, Ижевск, Владимир</span></div>
+                </div>
+                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
+              </div>
+              <div class="card">
+                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000211</span></div>
+                <div class="card__col"><span class="card__label">Дата поездки</span>
+                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col"><span class="card__label">Город</span>
+                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва, Ярославль, Ижевск, Владимир</span></div>
+                </div>
+                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
+              </div>
+              <div class="card">
+                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000118</span></div>
+                <div class="card__col"><span class="card__label">Дата поездки</span>
+                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col"><span class="card__label">Город</span>
+                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва, Ярославль, Ижевск, Владимир</span></div>
+                </div>
+                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
+              </div>
+              <div class="card">
+                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000119</span></div>
+                <div class="card__col"><span class="card__label">Дата поездки</span>
+                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col"><span class="card__label">Город</span>
+                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва, Ярославль, Ижевск, Владимир</span></div>
+                </div>
+                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
+              </div>
+              <div class="card">
+                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000120</span></div>
+                <div class="card__col"><span class="card__label">Дата поездки</span>
+                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col"><span class="card__label">Город</span>
+                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва, Ярославль, Ижевск, Владимир</span></div>
+                </div>
+                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
+              </div>
+              <div class="card">
+                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000133</span></div>
+                <div class="card__col"><span class="card__label">Дата поездки</span>
+                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col"><span class="card__label">Город</span>
+                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва, Ярославль, Ижевск, Владимир</span></div>
+                </div>
+                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
+              </div>
+              <div class="card">
+                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000115</span></div>
+                <div class="card__col"><span class="card__label">Дата поездки</span>
+                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col"><span class="card__label">Город</span>
+                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва, Ярославль, Ижевск, Владимир</span></div>
+                </div>
+                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
+              </div>
+              <div class="card">
+                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000117</span></div>
+                <div class="card__col"><span class="card__label">Дата поездки</span>
+                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
+                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
+                </div>
+                <div class="card__col"><span class="card__label">Город</span>
+                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва</span></div>
+                </div>
+                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
+              </div>
             </div>
           </div>
         </div>
-      </footer>
+      </div>
     </main>
     <script src="js/vendor.min.js"></script>
     <script src="js/main.min.js"></script>
