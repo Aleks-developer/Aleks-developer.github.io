@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Тестовое задание</title>
+    <title>FairyFix</title>
     <meta name="theme-color" content="#fff">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -29,265 +29,263 @@
     <main class="main">
       <header class="header">
         <div class="container">
-          <div class="header-inner">
-            <ul class="menu">
-              <li class="menu__item"><a class="menu__link" href="/"><span>Поездки</span></a></li>
-            </ul><a class="login" href="/"><span class="login__inner"><span class="login__name">Заболоцкий К.О</span><span class="login__icon">
-                  <svg>
-                    <use xlink:href="img/sprites/sprite.svg#logout"></use>
-                  </svg></span></span></a>
+          <div class="header-inner"><a class="logo" href="#"><span class="logo__icon"><img src="img/logo.png"></span>
+              <div class="logo__text"><span class="logo__title">FairyFix</span><span class="logo__desc">Jsme víc než jen úklidová služba</span></div></a>
+            <div class="header-right">
+              <div class="header-right__line">
+                <div class="header-links">
+                  <div class="header-links__col"><a class="header-link" href="tel:+420602485000"><span class="header-link__icon"><img src="img/h-icon-1.png"></span><span class="header-link__text">+420 602 485 000</span></a></div>
+                  <div class="header-links__col"><a class="header-link" href="mailto:info@fairyfix.cz"><span class="header-link__icon"><img src="img/h-icon-2.png"></span><span class="header-link__text">info@fairyfix.cz</span></a></div>
+                </div>
+                <div class="choice header-choice">
+                  <input type="checkbox" name="choice" id="choice">
+                  <label for="choice"><span class="choice-circle"></span>
+                    <div class="choice-items"><span class="choice-item">cz</span><span class="choice-item">en</span></div>
+                  </label>
+                </div>
+              </div>
+              <div class="header-right__line sidebar js-sidebar">
+                <div class="choice sidebar-choice">
+                  <input type="checkbox" name="choice" id="choiceSidebar">
+                  <label for="choiceSidebar"><span class="choice-circle"></span>
+                    <div class="choice-items"><span class="choice-item">cz</span><span class="choice-item">en</span></div>
+                  </label>
+                </div>
+                <ul class="nav">
+                  <li class="nav-item"><a class="nav-item__link" href="#">Domů</a></li>
+                  <li class="nav-item"><a class="nav-item__link" href="#">Nabídka Služeb</a>
+                    <ul class="sub-nav">
+                      <li class="sub-nav__item"><a class="sub-nav__link" href="#">Nabídka Služeb</a></li>
+                      <li class="sub-nav__item"><a class="sub-nav__link" href="#">Nabídka Služeb 2</a></li>
+                      <li class="sub-nav__item"><a class="sub-nav__link" href="#">Nabídka Služeb 3</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item"><a class="nav-item__link" href="#">Fairyfix doporučuje</a></li>
+                  <li class="nav-item"><a class="nav-item__link" href="#">Kariéra</a></li>
+                </ul>
+              </div><span class="burger js-burger"><img src="img/sidebar.png"></span>
+            </div>
           </div>
         </div>
       </header>
       <div class="page-wrapper">
+        <section class="hello text-center" id="target-about">
+          <div class="hello__bg bg-cover"><img src="img/hello-bg.png"></div>
+          <div class="container">
+            <div class="hello-inner title-content" data-aos="fade-up" data-aos-duration="1200">
+              <h1>Preciznost, péče a luxusní standard</h1>
+              <div class="hello-content">
+                <p>FairyFix mění úklid ve službu na míru</p>
+              </div>
+              <div class="hello-buttons">
+                <button class="btn btn--green btn--big" type="button" data-micromodal-trigger="modal-1" role="button"><span>Rezervace online</span></button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="services text-center" id="target-services">
+          <div class="container">
+            <div class="services-inner title-content" data-aos="fade-up" data-aos-duration="1200">
+              <h2>Nabídka Služeb FairyFix</h2>
+              <div class="services-content">
+                <p>Elegantní úklidové a lifestyle služby v Praze</p>
+              </div>
+            </div>
+            <div class="services-items">
+              <div class="services-row">
+                <div class="services-col" data-aos="fade-up" data-aos-duration="1200"><a class="services-item" href="/">
+                    <div class="services-item__icon"><span class="services-item__circle"></span><img src="img/services-1.png"></div>
+                    <div class="services-item__bottom">
+                      <div class="services-item__text">
+                        <p>Rituální úklidové zážitky + Holistická & specializovaná péče</p>
+                      </div>
+                      <div class="services-item__button">
+                        <button class="btn btn--green btn--small" type="button"><span>Dozvědět více</span></button>
+                      </div>
+                    </div></a></div>
+                <div class="services-col" data-aos="fade-up" data-aos-duration="1200"><a class="services-item" href="/">
+                    <div class="services-item__icon"><span class="services-item__circle"></span><img src="img/services-2.png"></div>
+                    <div class="services-item__bottom">
+                      <div class="services-item__text">
+                        <p>Certifikovaný úklid pro kliniky a laboratoře</p>
+                      </div>
+                      <div class="services-item__button">
+                        <button class="btn btn--green btn--small" type="button"><span>Dozvědět více</span></button>
+                      </div>
+                    </div></a></div>
+                <div class="services-col" data-aos="fade-up" data-aos-duration="1200"><a class="services-item" href="/">
+                    <div class="services-item__icon"><span class="services-item__circle"></span><img src="img/services-3.png"></div>
+                    <div class="services-item__bottom">
+                      <div class="services-item__text">
+                        <p>VIP Lifestyle & Sezónní Služby</p>
+                      </div>
+                      <div class="services-item__button">
+                        <button class="btn btn--green btn--small" type="button"><span>Dozvědět více</span></button>
+                      </div>
+                    </div></a></div>
+                <div class="services-col" data-aos="fade-up" data-aos-duration="1200"><a class="services-item" href="/">
+                    <div class="services-item__icon"><span class="services-item__circle"></span><img src="img/services-4.png"></div>
+                    <div class="services-item__bottom">
+                      <div class="services-item__text">
+                        <p>Úklid & Organizace Domova</p>
+                      </div>
+                      <div class="services-item__button">
+                        <button class="btn btn--green btn--small" type="button"><span>Dozvědět více</span></button>
+                      </div>
+                    </div></a></div>
+                <div class="services-col" data-aos="fade-up" data-aos-duration="1200"><a class="services-item" href="/">
+                    <div class="services-item__icon"><span class="services-item__circle"></span><img src="img/services-5.png"></div>
+                    <div class="services-item__bottom">
+                      <div class="services-item__text">
+                        <p>Stěhovací Služba</p>
+                      </div>
+                      <div class="services-item__button">
+                        <button class="btn btn--green btn--small" type="button"><span>Dozvědět více</span></button>
+                      </div>
+                    </div></a></div>
+                <div class="services-col" data-aos="fade-up" data-aos-duration="1200"><a class="services-item" href="/">
+                    <div class="services-item__icon"><span class="services-item__circle"></span><img src="img/services-6.png"></div>
+                    <div class="services-item__bottom">
+                      <div class="services-item__text">
+                        <p>Údržba & drobné opravy</p>
+                      </div>
+                      <div class="services-item__button">
+                        <button class="btn btn--green btn--small" type="button"><span>Dozvědět více</span></button>
+                      </div>
+                    </div></a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="info" id="target-order">
+          <div class="container">
+            <div class="info-text">
+              <div class="info-text__bg"><img src="img/info-bg.png"></div>
+              <div class="info-text__inner">
+                <h4>FairyFix není obyčejná úklidová služba.</h4>
+                <p>Jsme prémiová lifestyle značka z Prahy, která propojuje luxusní úklid s aromaterapií, estetikou, a péčí o domov na míru.</p>
+                <p>Na rozdíl od běžné konkurence nabízíme VIP servis, který zahrnuje ritualizovaný úklid, energetické čištění dle Feng Shui, přípravu domova pro miminko, šetrnou péči o designové předměty, krystaly i umělecká díla.</p>
+                <p>U nás nejde jen o čistotu – jde o harmonii, krásu a klidný prostor, který vás podpoří každý den. FairyFix - Magický restart vašeho domova.</p>
+                <h5>Proč si vybrat FairyFix?</h5>
+                <ul>
+                  <li><span><img src="img/list.png"></span>Nejsme jen uklízečky – jsme stylistky vašeho domova a měníme energii prostoru.</li>
+                  <li><span><img src="img/list.png"></span>Každá služba je rituál, s aromaterapií, krásou a péčí o každý detail.</li>
+                  <li><span><img src="img/list.png"></span>Specializujeme se na luxusní materiály, designové předměty a vzácné povrchy.</li>
+                  <li><span><img src="img/list.png"></span>Nabízíme unikátní služby – čištění klinik a laboratoří, příprava pro novorozence, organizace domácnosti na míru.</li>
+                  <li><span><img src="img/list.png"></span>Diskrétnost, elegance a profesionalita.</li>
+                  <li><span><img src="img/list.png"></span>Věříme, že domov je svatyně – a podle toho k němu přistupujeme.</li>
+                  <li><span><img src="img/list.png"></span>Platba až po dokončení práce</li>
+                </ul>
+              </div>
+            </div>
+            <div class="info-form__wrap" data-aos="fade-up" data-aos-duration="1200">
+              <div class="info-form__bg"><img src="img/form-bg.png"></div>
+              <div class="info-form__title">
+                <h4>Napište nám</h4>
+              </div>
+              <div class="info-form__max-width">
+                <form class="info-form" action="/" method="post">
+                  <div class="info-form__column form__column--w50">
+                    <input class="form-input" type="text" name="input" placeholder="Jméno *">
+                  </div>
+                  <div class="info-form__column form__column--w50">
+                    <input class="form-input" type="text" name="input" placeholder="Příjmení *">
+                  </div>
+                  <div class="info-form__column form__column--w50">
+                    <input class="form-input" type="email" name="email" placeholder="E-mailová adresa *">
+                  </div>
+                  <div class="info-form__column form__column--w50">
+                    <input class="form-input" type="tel" name="phone" placeholder="Telefon *">
+                  </div>
+                  <div class="info-form__column form__column--w100">
+                    <div class="nice-select__wrap">
+                      <select id="nice-select">
+                        <option>Vyberte službu</option>
+                        <option>Vyberte službu 2</option>
+                        <option>Vyberte službu 3</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="info-form__column form__column--w100">
+                    <textarea class="form-input form-input--textarea" rows="5" name="text" placeholder="Jak vám můžeme pomoci? *"></textarea>
+                  </div>
+                  <div class="info-form__column form__column--w100 form__column--button">
+                    <div class="checkbox">
+                      <input type="checkbox" name="check" id="check">
+                      <label for="check"><span class="checkbox__box"></span>Souhlasíte s našimi podmínkami použití pro zpracování vašich údajů</label>
+                    </div>
+                    <button class="btn btn--green btn--small"><span>Odeslat zprávu</span></button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="info-bottom">
+              <p>Přijímáme bezpečné online platby kartou, přes Apple Pay, Google Pay nebo bankovní převod. <br> Na vyžádání je možné zaplatit také na místě prostřednictvím mobilního terminálu.</p>
+              <p>U prémiových rezervací může být požadována záloha pro potvrzení termínu.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
         <div class="container">
-          <div class="title">
-            <h1 class="title__value">Мои поездки</h1>
-            <div class="title__button">
-              <button class="btn btn--blue"><span class="btn__icon">
-                  <svg>
-                    <use xlink:href="img/sprites/sprite.svg#plus"></use>
-                  </svg></span><span>Оформить поездку</span></button>
+          <div class="footer-row">
+            <div class="footer-col">
+              <p class="footer__copyright">Fairyfix – Profesionální služby s důrazem na kvalitu, spolehlivost a ekologická řešení. <br> Vaše spokojenost je naší prioritou.</p>
             </div>
-          </div>
-          <div class="settings">
-            <div class="settings__left">
-              <div class="settings__col">
-                <div class="settings__period">
-                  <div class="settings__period-item"><span class="settings__period-label">Период с:</span>
-                    <div class="settings__input settings__period-input">
-                      <input class="form-input form-input--period form-input--active" type="text" name="date1" placeholder="Выбрать..." value="22.02.2024"><span class="settings__input-icon">
-                        <svg>
-                          <use xlink:href="img/sprites/sprite.svg#calendar"></use>
-                        </svg></span><span class="settings__input-delete">
-                        <svg>
-                          <use xlink:href="img/sprites/sprite.svg#close"></use>
-                        </svg></span>
-                    </div>
-                  </div>
-                  <div class="settings__period-item"><span class="settings__period-label">по:</span>
-                    <div class="settings__input settings__period-input">
-                      <input class="form-input form-input--period" type="text" name="date2" placeholder="Выбрать..."><span class="settings__input-icon">
-                        <svg>
-                          <use xlink:href="img/sprites/sprite.svg#calendar"></use>
-                        </svg></span>
-                    </div>
+            <div class="footer-col">
+              <div class="footer-col__center">
+                <div class="footer-col__center-inner">
+                  <p>KONTAKTUJTE NÁS</p>
+                  <div class="footer-links">
+                    <div class="footer-links__line"><a class="footer-link" href="tel:+420602485000"><span class="footer-link__icon"><img src="img/f-icon-1.png"></span><span class="footer-link__text">+420 602 485 000</span></a></div>
+                    <div class="footer-links__line"><a class="footer-link" href="mailto:info@fairyfix"><span class="footer-link__icon"><img src="img/f-icon-2.png"></span><span class="footer-link__text">info@fairyfix</span></a></div>
                   </div>
                 </div>
               </div>
-              <div class="settings__col">
-                <div class="settings__input settings__search-input">
-                  <input class="form-input form-input--search" type="text" name="search" placeholder="Поиск..."><span class="settings__input-icon">
-                    <svg>
-                      <use xlink:href="img/sprites/sprite.svg#search"></use>
-                    </svg></span>
-                </div>
-              </div>
-              <div class="settings__col"><span class="settings__clear"><span class="settings__clear-icon">
-                    <svg>
-                      <use xlink:href="img/sprites/sprite.svg#clear"></use>
-                    </svg></span><span>Сбросить все</span></span></div>
             </div>
-            <div class="settings__right">
-              <div class="checkbox">
-                <input type="checkbox" name="check" id="check">
-                <label for="check"><span class="checkbox__box"></span>Показать архивные поездки</label>
-              </div>
-            </div>
-          </div>
-          <div class="line">
-            <div class="line__inner"></div>
-          </div>
-          <div class="list">
-            <div class="list__scroll">
-              <div class="card">
-                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000115</span></div>
-                <div class="card__col"><span class="card__label">Дата поездки</span>
-                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col"><span class="card__label">Город</span>
-                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва, Ярославль, Ижевск, Владимир</span></div>
-                </div>
-                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
-              </div>
-              <div class="card">
-                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000117</span></div>
-                <div class="card__col"><span class="card__label">Дата поездки</span>
-                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col"><span class="card__label">Город</span>
-                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва</span></div>
-                </div>
-                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
-              </div>
-              <div class="card">
-                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000074</span></div>
-                <div class="card__col"><span class="card__label">Дата поездки</span>
-                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col"><span class="card__label">Город</span>
-                  <div class="card__dynamic"><span class="card__value card__value--max-width">Кременчуг-Константиновское, Петропавловск-Камчатский, Новосибирск, Волгоград</span>
-                    <div class="help"><span class="help__icon">
-                        <svg>
-                          <use xlink:href="img/sprites/sprite.svg#help"></use>
-                        </svg></span>
-                      <div class="help__content">Кременчуг-Константиновское, Петропавловск-Камчатский, Новосибирск, Волгоград, Саратов</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
-              </div>
-              <div class="card">
-                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000115</span></div>
-                <div class="card__col"><span class="card__label">Дата поездки</span>
-                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col"><span class="card__label">Город</span>
-                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва, Ярославль, Ижевск, Владимир</span></div>
-                </div>
-                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
-              </div>
-              <div class="card">
-                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000211</span></div>
-                <div class="card__col"><span class="card__label">Дата поездки</span>
-                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col"><span class="card__label">Город</span>
-                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва, Ярославль, Ижевск, Владимир</span></div>
-                </div>
-                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
-              </div>
-              <div class="card">
-                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000118</span></div>
-                <div class="card__col"><span class="card__label">Дата поездки</span>
-                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col"><span class="card__label">Город</span>
-                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва, Ярославль, Ижевск, Владимир</span></div>
-                </div>
-                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
-              </div>
-              <div class="card">
-                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000119</span></div>
-                <div class="card__col"><span class="card__label">Дата поездки</span>
-                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col"><span class="card__label">Город</span>
-                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва, Ярославль, Ижевск, Владимир</span></div>
-                </div>
-                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
-              </div>
-              <div class="card">
-                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000120</span></div>
-                <div class="card__col"><span class="card__label">Дата поездки</span>
-                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col"><span class="card__label">Город</span>
-                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва, Ярославль, Ижевск, Владимир</span></div>
-                </div>
-                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
-              </div>
-              <div class="card">
-                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000133</span></div>
-                <div class="card__col"><span class="card__label">Дата поездки</span>
-                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col"><span class="card__label">Город</span>
-                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва, Ярославль, Ижевск, Владимир</span></div>
-                </div>
-                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
-              </div>
-              <div class="card">
-                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000115</span></div>
-                <div class="card__col"><span class="card__label">Дата поездки</span>
-                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col"><span class="card__label">Город</span>
-                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва, Ярославль, Ижевск, Владимир</span></div>
-                </div>
-                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
-              </div>
-              <div class="card">
-                <div class="card__col"><span class="card__label">№ поездки</span><span class="card__number">000117</span></div>
-                <div class="card__col"><span class="card__label">Дата поездки</span>
-                  <div class="card__dynamic"><span class="card__value">22.02.2024 - 27.02.2024</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, план</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col card__col--right"><span class="card__label">Сумма, факт</span>
-                  <div class="card__dynamic"><span class="card__value">29 400,00</span></div>
-                </div>
-                <div class="card__col"><span class="card__label">Город</span>
-                  <div class="card__dynamic"><span class="card__value card__value--max-width">Москва</span></div>
-                </div>
-                <div class="card__col card__col--center"><span class="card__label">Статус</span><span class="status status--doc">Документы</span></div>
-              </div>
+            <div class="footer-col">
+              <p class="footer__copyright">MalikaGlobal s.r.o.     IČ: 22264213<br>Kontaktujte nás nyní pro cenovou nabídku na konzultaci.<br>GDPR / Všeobecné obchodní podmínky</p>
             </div>
           </div>
         </div>
-      </div>
+      </footer>
     </main>
+    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close="">
+        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+          <header class="modal__header">
+            <h2 class="modal__title" id="modal-1-title">Napište nám</h2>
+            <button class="modal__close" aria-label="Close modal" data-micromodal-close=""></button>
+          </header>
+          <main class="modal__content" id="modal-1-content">
+            <form class="info-form" action="/" method="post">
+              <div class="info-form__column form__column--w100">
+                <input class="form-input" type="text" name="input" placeholder="Jméno *">
+              </div>
+              <div class="info-form__column form__column--w100">
+                <input class="form-input" type="text" name="input" placeholder="Příjmení *">
+              </div>
+              <div class="info-form__column form__column--w100">
+                <input class="form-input" type="email" name="email" placeholder="E-mailová adresa *">
+              </div>
+              <div class="info-form__column form__column--w100">
+                <input class="form-input" type="tel" name="phone" placeholder="Telefon *">
+              </div>
+              <div class="info-form__column form__column--w100">
+                <textarea class="form-input form-input--textarea" rows="5" name="text" placeholder="Jak vám můžeme pomoci? *"></textarea>
+              </div>
+              <div class="info-form__column form__column--w100 form__column--button">
+                <div class="checkbox">
+                  <input type="checkbox" name="check" id="checkModal">
+                  <label for="checkModal"><span class="checkbox__box"></span>Souhlasíte s našimi podmínkami použití pro zpracování vašich údajů</label>
+                </div>
+                <button class="btn btn--green btn--small"><span>Odeslat zprávu</span></button>
+              </div>
+            </form>
+          </main>
+        </div>
+      </div>
+    </div>
     <script src="js/vendor.min.js"></script>
     <script src="js/main.min.js"></script>
   </body>
