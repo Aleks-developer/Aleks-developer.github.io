@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>FairyFix</title>
+    <title>Lock</title>
     <meta name="theme-color" content="#fff">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -29,223 +29,497 @@
     <main class="main">
       <header class="header">
         <div class="container">
-          <div class="header-inner"><a class="logo" href="#"><span class="logo__icon"><img src="img/logo.png"></span>
-              <div class="logo__text"><span class="logo__title">FairyFix</span><span class="logo__desc">Jsme víc než jen úklidová služba</span></div></a>
-            <div class="header-right">
-              <div class="header-right__line">
-                <div class="header-links">
-                  <div class="header-links__col"><a class="header-link" href="tel:+420602485000"><span class="header-link__icon"><img src="img/h-icon-1.png"></span><span class="header-link__text">+420 602 485 000</span></a></div>
-                  <div class="header-links__col"><a class="header-link" href="mailto:info@fairyfix.cz"><span class="header-link__icon"><img src="img/h-icon-2.png"></span><span class="header-link__text">info@fairyfix.cz</span></a></div>
-                </div>
-                <div class="choice header-choice">
-                  <input type="checkbox" name="choice" id="choice">
-                  <label for="choice"><span class="choice-circle"></span>
-                    <div class="choice-items"><span class="choice-item">cz</span><span class="choice-item">en</span></div>
-                  </label>
-                </div>
+          <div class="header-inner">
+            <div class="header-top">
+              <div class="header-links">
+                <div class="header-links__col"><a class="header-link" href="/"><span class="header-link__icon">
+                      <svg>
+                        <use xlink:href="img/sprites/sprite.svg#map"></use>
+                      </svg></span><span class="header-link__text">Fügnerovo nám. 5, Nové Město, Vinohrady, Praha 2</span></a></div>
+                <div class="header-links__col"><span class="header-link"><span class="header-link__icon">
+                      <svg>
+                        <use xlink:href="img/sprites/sprite.svg#time"></use>
+                      </svg></span><span class="header-link__text">Otevřeno Nonstop</span></span></div>
+                <div class="header-links__col"><a class="header-link" href="tel:+420602485000"><span class="header-link__icon">
+                      <svg>
+                        <use xlink:href="img/sprites/sprite.svg#phone"></use>
+                      </svg></span><span class="header-link__text">+420 602 566 690</span></a></div>
               </div>
-              <div class="header-right__line sidebar js-sidebar">
-                <div class="choice sidebar-choice">
-                  <input type="checkbox" name="choice" id="choiceSidebar">
-                  <label for="choiceSidebar"><span class="choice-circle"></span>
-                    <div class="choice-items"><span class="choice-item">cz</span><span class="choice-item">en</span></div>
-                  </label>
-                </div>
-                <ul class="nav">
-                  <li class="nav-item"><a class="nav-item__link" href="#">Domů</a></li>
-                  <li class="nav-item"><a class="nav-item__link" href="#">Nabídka Služeb</a>
-                    <ul class="sub-nav">
-                      <li class="sub-nav__item"><a class="sub-nav__link" href="#">Nabídka Služeb</a></li>
-                      <li class="sub-nav__item"><a class="sub-nav__link" href="#">Nabídka Služeb 2</a></li>
-                      <li class="sub-nav__item"><a class="sub-nav__link" href="#">Nabídka Služeb 3</a></li>
+            </div>
+            <div class="header-bottom">
+              <div class="header-bottom__col">
+                <div class="header-logo"><a class="logo" href="#"><span class="logo__icon"><img src="img/logo.svg"></span></a></div>
+              </div>
+              <div class="header-bottom__col">
+                <div class="sidebar js-sidebar">
+                  <div class="sidebar__bg bg-cover"><img src="img/bg-hello.jpg"></div>
+                  <div class="sidebar-inner">
+                    <ul class="nav">
+                      <li class="nav-item"><a class="nav-item__link" href="#">Úvod</a></li>
+                      <li class="nav-item"><a class="nav-item__link" href="#">Naše sauna</a></li>
+                      <li class="nav-item"><a class="nav-item__link" href="#">Služby</a></li>
+                      <li class="nav-item"><a class="nav-item__link" href="#">Ceník</a></li>
+                      <li class="nav-item"><a class="nav-item__link" href="#">FAQ</a></li>
+                      <li class="nav-item"><a class="nav-item__link" href="#">Kontakty</a></li>
                     </ul>
-                  </li>
-                  <li class="nav-item"><a class="nav-item__link" href="#">Fairyfix doporučuje</a></li>
-                  <li class="nav-item"><a class="nav-item__link" href="#">Kariéra</a></li>
-                </ul>
-              </div><span class="burger js-burger"><img src="img/sidebar.png"></span>
+                    <div class="sidebar-button">
+                      <button class="btn btn--light-brown btn--small" type="button" data-micromodal-trigger="modal-1" role="button"><span>Rezervace</span></button>
+                    </div>
+                    <div class="sidebar-contacts"><span class="header-link"><span class="header-link__icon">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#time"></use>
+                          </svg></span><span class="header-link__text">Otevřeno Nonstop</span></span><a class="header-link" href="tel:+420602485000"><span class="header-link__icon">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#phone"></use>
+                          </svg></span><span class="header-link__text">+420 602 566 690</span></a></div>
+                  </div>
+                </div>
+                <div class="header-choice">
+                  <div class="choice">
+                    <div class="choice-inner"><span class="choice__icon">
+                        <svg>
+                          <use xlink:href="img/sprites/sprite.svg#whatsapp"></use>
+                        </svg></span><span>CZ</span><span class="choice__arrow">
+                        <svg>
+                          <use xlink:href="img/sprites/sprite.svg#arrow"></use>
+                        </svg></span></div>
+                    <ul class="sub-nav">
+                      <li class="sub-nav__item"><a class="sub-nav__link" href="#">CZ</a></li>
+                      <li class="sub-nav__item"><a class="sub-nav__link" href="#">CZ</a></li>
+                      <li class="sub-nav__item"><a class="sub-nav__link" href="#">CZ</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="header-button">
+                  <button class="btn btn--light-brown btn--small" type="button" data-micromodal-trigger="modal-1" role="button"><span>Rezervace</span></button>
+                </div><span class="burger js-burger"><span class="burger__line"></span><span class="burger__line"></span><span class="burger__line"></span></span>
+              </div>
             </div>
           </div>
         </div>
       </header>
       <div class="page-wrapper">
-        <section class="hello text-center" id="target-about">
-          <div class="hello__bg bg-cover"><img src="img/hello-bg.png"></div>
+        <section class="hello s-white">
+          <div class="hello__bg bg-cover"><img src="img/bg-hello.jpg"></div>
           <div class="container">
-            <div class="hello-inner title-content" data-aos="fade-up" data-aos-duration="1200">
-              <h1>Preciznost, péče a luxusní standard</h1>
-              <div class="hello-content">
-                <p>FairyFix mění úklid ve službu na míru</p>
-              </div>
+            <div class="hello-inner" data-aos="fade-up" data-aos-duration="1200">
+              <h1>Privátní sauna 24/7 v centru Prahy</h1>
               <div class="hello-buttons">
-                <button class="btn btn--green btn--big" type="button" data-micromodal-trigger="modal-1" role="button"><span>Rezervace online</span></button>
+                <button class="btn btn--light-brown btn--big" type="button" data-micromodal-trigger="modal-1" role="button"><span>Rezervace</span></button>
               </div>
             </div>
           </div>
         </section>
-        <section class="services text-center" id="target-services">
+        <section class="services">
           <div class="container">
-            <div class="services-inner title-content" data-aos="fade-up" data-aos-duration="1200">
-              <h2>Nabídka Služeb FairyFix</h2>
-              <div class="services-content">
-                <p>Elegantní úklidové a lifestyle služby v Praze</p>
-              </div>
-            </div>
+            <h2>Proč si vybrat právě nás</h2>
             <div class="services-items">
               <div class="services-row">
                 <div class="services-col" data-aos="fade-up" data-aos-duration="1200"><a class="services-item" href="/">
-                    <div class="services-item__icon"><span class="services-item__circle"></span><img src="img/services-1.png"></div>
+                    <div class="services-item__icon"></div>
                     <div class="services-item__bottom">
                       <div class="services-item__text">
-                        <p>Rituální úklidové zážitky + Holistická & specializovaná péče</p>
-                      </div>
-                      <div class="services-item__button">
-                        <button class="btn btn--green btn--small" type="button"><span>Dozvědět více</span></button>
+                        <p>Absolutní soukromí – celá sauna jen pro vás</p>
                       </div>
                     </div></a></div>
                 <div class="services-col" data-aos="fade-up" data-aos-duration="1200"><a class="services-item" href="/">
-                    <div class="services-item__icon"><span class="services-item__circle"></span><img src="img/services-2.png"></div>
+                    <div class="services-item__icon"></div>
                     <div class="services-item__bottom">
                       <div class="services-item__text">
-                        <p>Certifikovaný úklid pro kliniky a laboratoře</p>
-                      </div>
-                      <div class="services-item__button">
-                        <button class="btn btn--green btn--small" type="button"><span>Dozvědět více</span></button>
+                        <p>Skvělá poloha – přímo v centru Prahy</p>
                       </div>
                     </div></a></div>
                 <div class="services-col" data-aos="fade-up" data-aos-duration="1200"><a class="services-item" href="/">
-                    <div class="services-item__icon"><span class="services-item__circle"></span><img src="img/services-3.png"></div>
+                    <div class="services-item__icon"></div>
                     <div class="services-item__bottom">
                       <div class="services-item__text">
-                        <p>VIP Lifestyle & Sezónní Služby</p>
-                      </div>
-                      <div class="services-item__button">
-                        <button class="btn btn--green btn--small" type="button"><span>Dozvědět více</span></button>
+                        <p>Vždy čistá a připravená – hygienu bereme vážně</p>
                       </div>
                     </div></a></div>
                 <div class="services-col" data-aos="fade-up" data-aos-duration="1200"><a class="services-item" href="/">
-                    <div class="services-item__icon"><span class="services-item__circle"></span><img src="img/services-4.png"></div>
+                    <div class="services-item__icon"></div>
                     <div class="services-item__bottom">
                       <div class="services-item__text">
-                        <p>Úklid & Organizace Domova</p>
-                      </div>
-                      <div class="services-item__button">
-                        <button class="btn btn--green btn--small" type="button"><span>Dozvědět více</span></button>
-                      </div>
-                    </div></a></div>
-                <div class="services-col" data-aos="fade-up" data-aos-duration="1200"><a class="services-item" href="/">
-                    <div class="services-item__icon"><span class="services-item__circle"></span><img src="img/services-5.png"></div>
-                    <div class="services-item__bottom">
-                      <div class="services-item__text">
-                        <p>Stěhovací Služba</p>
-                      </div>
-                      <div class="services-item__button">
-                        <button class="btn btn--green btn--small" type="button"><span>Dozvědět více</span></button>
-                      </div>
-                    </div></a></div>
-                <div class="services-col" data-aos="fade-up" data-aos-duration="1200"><a class="services-item" href="/">
-                    <div class="services-item__icon"><span class="services-item__circle"></span><img src="img/services-6.png"></div>
-                    <div class="services-item__bottom">
-                      <div class="services-item__text">
-                        <p>Údržba & drobné opravy</p>
-                      </div>
-                      <div class="services-item__button">
-                        <button class="btn btn--green btn--small" type="button"><span>Dozvědět více</span></button>
+                        <p>Flexibilní rezervace – vyberte si čas, který vám sedí Možnost přenocování</p>
                       </div>
                     </div></a></div>
               </div>
             </div>
           </div>
         </section>
-        <section class="info" id="target-order">
+        <section class="gallery s-white">
           <div class="container">
-            <div class="info-text">
-              <div class="info-text__bg"><img src="img/info-bg.png"></div>
-              <div class="info-text__inner">
-                <h4>FairyFix není obyčejná úklidová služba.</h4>
-                <p>Jsme prémiová lifestyle značka z Prahy, která propojuje luxusní úklid s aromaterapií, estetikou, a péčí o domov na míru.</p>
-                <p>Na rozdíl od běžné konkurence nabízíme VIP servis, který zahrnuje ritualizovaný úklid, energetické čištění dle Feng Shui, přípravu domova pro miminko, šetrnou péči o designové předměty, krystaly i umělecká díla.</p>
-                <p>U nás nejde jen o čistotu – jde o harmonii, krásu a klidný prostor, který vás podpoří každý den. FairyFix - Magický restart vašeho domova.</p>
-                <h5>Proč si vybrat FairyFix?</h5>
-                <ul>
-                  <li><span><img src="img/list.png"></span>Nejsme jen uklízečky – jsme stylistky vašeho domova a měníme energii prostoru.</li>
-                  <li><span><img src="img/list.png"></span>Každá služba je rituál, s aromaterapií, krásou a péčí o každý detail.</li>
-                  <li><span><img src="img/list.png"></span>Specializujeme se na luxusní materiály, designové předměty a vzácné povrchy.</li>
-                  <li><span><img src="img/list.png"></span>Nabízíme unikátní služby – čištění klinik a laboratoří, příprava pro novorozence, organizace domácnosti na míru.</li>
-                  <li><span><img src="img/list.png"></span>Diskrétnost, elegance a profesionalita.</li>
-                  <li><span><img src="img/list.png"></span>Věříme, že domov je svatyně – a podle toho k němu přistupujeme.</li>
-                  <li><span><img src="img/list.png"></span>Platba až po dokončení práce</li>
-                </ul>
+            <div class="title-flex">
+              <h2>Proč si vybrat právě nás</h2>
+              <div class="gallery-button">
+                <button class="btn btn--light-brown btn--big" type="button" data-micromodal-trigger="modal-1" role="button"><span>Rezervace</span></button>
               </div>
             </div>
-            <div class="info-form__wrap" data-aos="fade-up" data-aos-duration="1200">
-              <div class="info-form__bg"><img src="img/form-bg.png"></div>
-              <div class="info-form__title">
-                <h4>Napište nám</h4>
-              </div>
-              <div class="info-form__max-width">
-                <form class="info-form" action="/" method="post">
-                  <div class="info-form__column form__column--w50">
-                    <input class="form-input" type="text" name="input" placeholder="Jméno *">
-                  </div>
-                  <div class="info-form__column form__column--w50">
-                    <input class="form-input" type="text" name="input" placeholder="Příjmení *">
-                  </div>
-                  <div class="info-form__column form__column--w50">
-                    <input class="form-input" type="email" name="email" placeholder="E-mailová adresa *">
-                  </div>
-                  <div class="info-form__column form__column--w50">
-                    <input class="form-input" type="tel" name="phone" placeholder="Telefon *">
-                  </div>
-                  <div class="info-form__column form__column--w100">
-                    <div class="nice-select__wrap">
-                      <select id="nice-select">
-                        <option>Vyberte službu</option>
-                        <option>Vyberte službu 2</option>
-                        <option>Vyberte službu 3</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="info-form__column form__column--w100">
-                    <textarea class="form-input form-input--textarea" rows="5" name="text" placeholder="Jak vám můžeme pomoci? *"></textarea>
-                  </div>
-                  <div class="info-form__column form__column--w100 form__column--button">
-                    <div class="checkbox">
-                      <input type="checkbox" name="check" id="check">
-                      <label for="check"><span class="checkbox__box"></span>Souhlasíte s našimi podmínkami použití pro zpracování vašich údajů</label>
-                    </div>
-                    <button class="btn btn--green btn--small"><span>Odeslat zprávu</span></button>
-                  </div>
-                </form>
+            <div class="gallery-items">
+              <div class="gallery-grid">
+                <div class="gallery-item" data-aos="fade-up" data-aos-duration="1200">
+                  <div class="gallery-item__bg bg-cover"><img src="img/g-1.jpg"></div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-duration="1200">
+                  <div class="gallery-item__bg bg-cover"><img src="img/g-2.jpg"></div>
+                </div>
+                <div class="gallery-item gallery-item--large" data-aos="fade-up" data-aos-duration="1200">
+                  <div class="gallery-item__bg bg-cover"><img src="img/g-3.jpg"></div>
+                </div>
+                <div class="gallery-item gallery-item--long" data-aos="fade-up" data-aos-duration="1200">
+                  <div class="gallery-item__bg bg-cover"><img src="img/g-4.jpg"></div>
+                </div>
               </div>
             </div>
-            <div class="info-bottom">
-              <p>Přijímáme bezpečné online platby kartou, přes Apple Pay, Google Pay nebo bankovní převod. <br> Na vyžádání je možné zaplatit také na místě prostřednictvím mobilního terminálu.</p>
-              <p>U prémiových rezervací může být požadována záloha pro potvrzení termínu.</p>
+            <div class="gallery-more">
+              <button class="btn btn--light-brown btn--big" type="button" data-micromodal-trigger="modal-1" role="button"><span>Rezervace</span></button>
+            </div>
+          </div>
+        </section>
+        <section class="reviews">
+          <div class="container">
+            <div class="title-flex">
+              <div class="title-flex__group">
+                <h2>Proč si vybrat právě nás</h2>
+                <p>Vaše spokojenost je pro nás největší odměnou. Přečtěte si, co o Losku říkají ti, kteří už si u nás odpočinuli.</p>
+              </div>
+              <div class="slider-arrows">
+                <div class="slider-arrow reviews-slider__arrow" data-type="prev">
+                  <svg>
+                    <use xlink:href="img/sprites/sprite.svg#arrow-left"></use>
+                  </svg>
+                </div>
+                <div class="slider-arrow reviews-slider__arrow" data-type="next">
+                  <svg>
+                    <use xlink:href="img/sprites/sprite.svg#arrow-right"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="reviews-items swiper js-reviews-slider">
+              <div class="reviews-row swiper-wrapper">
+                <div class="reviews-col swiper-slide" data-aos="fade-up" data-aos-duration="1200">
+                  <div class="reviews-item">
+                    <h3>Alexander Ostrovsky</h3>
+                    <div class="reviews-item__text">
+                      <p>Vřele doporučuji tuto saunovou službu na vrcholu, rychlá reakce, vždy čistá a útulná. Ideální pro romantický večer nebo pro oslavu narozenin v malé společnosti. A co není málo důležité příjemné ceny!!!</p>
+                    </div>
+                    <div class="reviews-item__bottom">
+                      <div class="reviews-stars"><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="reviews-col swiper-slide" data-aos="fade-up" data-aos-duration="1200">
+                  <div class="reviews-item">
+                    <h3>Filip Davydov</h3>
+                    <div class="reviews-item__text">
+                      <p>Sám jsem pracoval jako parník a vím, jak má sauna vypadat. Parní lázeň v této sauně je dokonalá jak z hlediska objemu vzduchu, tak výkonu kamen.</p>
+                    </div>
+                    <div class="reviews-item__bottom">
+                      <div class="reviews-stars"><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="reviews-col swiper-slide" data-aos="fade-up" data-aos-duration="1200">
+                  <div class="reviews-item">
+                    <h3>Alex Loburenko</h3>
+                    <div class="reviews-item__text">
+                      <p>Pěkná sauna, malá a útulná. Velmi pěkné, že je přímo v centru.</p>
+                    </div>
+                    <div class="reviews-item__bottom">
+                      <div class="reviews-stars"><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="reviews-col swiper-slide" data-aos="fade-up" data-aos-duration="1200">
+                  <div class="reviews-item">
+                    <h3>Alexander Ostrovsky</h3>
+                    <div class="reviews-item__text">
+                      <p>Vřele doporučuji tuto saunovou službu na vrcholu, rychlá reakce, vždy čistá a útulná. Ideální pro romantický večer nebo pro oslavu narozenin v malé společnosti. A co není málo důležité příjemné ceny!!!</p>
+                    </div>
+                    <div class="reviews-item__bottom">
+                      <div class="reviews-stars"><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="reviews-col swiper-slide" data-aos="fade-up" data-aos-duration="1200">
+                  <div class="reviews-item">
+                    <h3>Filip Davydov</h3>
+                    <div class="reviews-item__text">
+                      <p>Sám jsem pracoval jako parník a vím, jak má sauna vypadat. Parní lázeň v této sauně je dokonalá jak z hlediska objemu vzduchu, tak výkonu kamen.</p>
+                    </div>
+                    <div class="reviews-item__bottom">
+                      <div class="reviews-stars"><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span><span class="reviews-stars__item">
+                          <svg>
+                            <use xlink:href="img/sprites/sprite.svg#star"></use>
+                          </svg></span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="price">
+          <div class="container">
+            <div class="price-items" data-aos="fade-up" data-aos-duration="1200">
+              <div class="price-row">
+                <div class="price-col">
+                  <div class="price-item">
+                    <div class="price-item__title">Balíček</div>
+                    <div class="price-item__line">2 hodiny (Po–Čt)</div>
+                    <div class="price-item__line">2 hodiny (Pá–Ne)</div>
+                    <div class="price-item__line">Celá noc (21:00–8:00)</div>
+                  </div>
+                </div>
+                <div class="price-col">
+                  <div class="price-item">
+                    <div class="price-item__title">Cena</div>
+                    <div class="price-item__line">1 200 Kč</div>
+                    <div class="price-item__line">1 500 Kč</div>
+                    <div class="price-item__line">od 2 800 Kč</div>
+                  </div>
+                </div>
+                <div class="price-col">
+                  <div class="price-item">
+                    <div class="price-item__title">Co obsahuje</div>
+                    <div class="price-item__line">Pro 1–4 osoby</div>
+                    <div class="price-item__line">Pro 1–4 osoby</div>
+                    <div class="price-item__line">Klidný noční relax</div>
+                  </div>
+                </div>
+              </div>
+              <div class="price-button">
+                <button class="btn btn--light-brown btn--big" type="button" data-micromodal-trigger="modal-1" role="button"><span>Rezervace</span></button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="quote">
+          <div class="container">
+            <div class="quote-wrapper">
+              <div class="quote-img" data-aos="fade-up" data-aos-duration="1200">
+                <div class="quote__bg bg-cover"><img src="img/bg-cite.jpg"></div>
+              </div>
+              <div class="quote-content s-light-white" data-aos="fade-up" data-aos-duration="1200">
+                <h2>Jak probíhá rezervace?</h2>
+                <p>Soukromá sauna a moderní odpočinkové zázemí v luxusním designu. Ke každé návštěvě dostanete zdarma lahev prosecca a v nadstandardně vybavených pokojích na Vás čeká ovocná mísa.</p>
+                <p>V rušném centru Prahy se nachází Losk Sauna - oáza, kde se snoubí luxus, cenová dostupnost a dokonalá čistota a nabízí bezkonkurenční wellness přímo v centru. Výhodná poloha sauny poskytuje pohodlné místo pro setkávání všech, které promění obyčejné dny v neobyčejné vzpomínky.</p>
+                <p>Zapomeňte na stres z cestování a ponořte se do oázy, kde každá cesta vede k relaxaci. Ať už se setkáváte se starými přáteli, hledáte zdravý odpočinek nebo plánujete jedinečnou rozlučku se svobodou, naše centrální poloha je křižovatkou pohodlí a komfortu.</p>
+                <button class="btn btn--dark-brown btn--big" type="button" data-micromodal-trigger="modal-1" role="button"><span>Rezervace</span></button>
+              </div>
+            </div>
+            <div class="services-row">
+              <div class="services-col" data-aos="fade-up" data-aos-duration="1200"><a class="services-item" href="/">
+                  <div class="services-item__icon"></div>
+                  <div class="services-item__bottom">
+                    <div class="services-item__text">
+                      <p>Umístění v centru Prahy Provoz 24/7</p>
+                    </div>
+                  </div></a></div>
+              <div class="services-col" data-aos="fade-up" data-aos-duration="1200"><a class="services-item" href="/">
+                  <div class="services-item__icon"></div>
+                  <div class="services-item__bottom">
+                    <div class="services-item__text">
+                      <p>Parkovací zóny v okolí placené i bezplatné</p>
+                    </div>
+                  </div></a></div>
+              <div class="services-col" data-aos="fade-up" data-aos-duration="1200"><a class="services-item" href="/">
+                  <div class="services-item__icon"></div>
+                  <div class="services-item__bottom">
+                    <div class="services-item__text">
+                      <p>Zóna pro relaxaci: postel, stůl, křesla</p>
+                    </div>
+                  </div></a></div>
+              <div class="services-col" data-aos="fade-up" data-aos-duration="1200"><a class="services-item" href="/">
+                  <div class="services-item__icon"></div>
+                  <div class="services-item__bottom">
+                    <div class="services-item__text">
+                      <p>Čistota je pro nás prioritou Po každém klientovi saunu intenzivně čistíme celou hodinu</p>
+                    </div>
+                  </div></a></div>
+            </div>
+          </div>
+        </section>
+        <section class="steps">
+          <div class="container">
+            <div class="title-flex steps-flex">
+              <div class="title-flex__group s-light-white">
+                <h2>Jak probíhá rezervace?</h2>
+                <p>Rezervace je jednoduchá! Nemusíte vyplňovat žádné formuláře. Stačí nám zavolat nebo napsat zprávu a domluvíme vše během chvíle.</p>
+              </div>
+              <button class="btn btn--dark-brown btn--big" type="button" data-micromodal-trigger="modal-1" role="button"><span>Rezervace</span></button>
+            </div>
+            <div class="steps-wrapper">
+              <div class="steps-img" data-aos="fade-up" data-aos-duration="1200">
+                <div class="steps__bg bg-cover"><img src="img/bg-steps.jpg"></div>
+              </div>
+              <div class="steps-content" data-aos="fade-up" data-aos-duration="1200">
+                <div class="steps-items">
+                  <div class="steps-row">
+                    <div class="steps-col">
+                      <div class="steps-item">
+                        <div class="steps-item__count">01</div>
+                        <div class="steps-item__text">
+                          <p>Zavolejte nám nebo napište přes WhatsApp</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="steps-col">
+                      <div class="steps-item">
+                        <div class="steps-item__count">02</div>
+                        <div class="steps-item__text">
+                          <p>Sdělte termín a délku pobytu</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="steps-col">
+                      <div class="steps-item">
+                        <div class="steps-item__count">03</div>
+                        <div class="steps-item__text">
+                          <p>Potvrdíme dostupnost a zarezervujeme pro vás</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="steps-col">
+                      <div class="steps-item">
+                        <div class="steps-item__count">04</div>
+                        <div class="steps-item__text">
+                          <p>Vaše soukromí je pro nás prioritou — vše řešíme osobně, rychle a diskrétně.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="steps-buttons"><a class="btn btn--light-brown btn--big" href="/"><span>Zavolat nyní</span></a><a class="btn btn--dark-brown btn--big" href="/"><span>Napsat na WhatsApp</span></a></div>
+              </div>
             </div>
           </div>
         </section>
       </div>
       <footer class="footer">
         <div class="container">
-          <div class="footer-row">
-            <div class="footer-col">
-              <p class="footer__copyright">Fairyfix – Profesionální služby s důrazem na kvalitu, spolehlivost a ekologická řešení. <br> Vaše spokojenost je naší prioritou.</p>
+          <div class="footer-top">
+            <div class="footer-logo"><a class="logo" href="#"><span class="logo__icon"><img src="img/logo-f.svg"></span></a></div>
+            <ul class="footer-nav">
+              <li class="footer-nav__item"><a class="footer-nav__link" href="#">Úvod</a></li>
+              <li class="footer-nav__item"><a class="footer-nav__link" href="#">Naše sauna</a></li>
+              <li class="footer-nav__item"><a class="footer-nav__link" href="#">Služby</a></li>
+              <li class="footer-nav__item"><a class="footer-nav__link" href="#">Ceník</a></li>
+              <li class="footer-nav__item"><a class="footer-nav__link" href="#">FAQ</a></li>
+              <li class="footer-nav__item"><a class="footer-nav__link" href="#">Kontakty</a></li>
+            </ul>
+            <div class="footer-button">
+              <button class="btn btn--dark-brown btn--small" type="button" data-micromodal-trigger="modal-1" role="button"><span>Rezervace</span></button>
             </div>
-            <div class="footer-col">
-              <div class="footer-col__center">
-                <div class="footer-col__center-inner">
-                  <p>KONTAKTUJTE NÁS</p>
-                  <div class="footer-links">
-                    <div class="footer-links__line"><a class="footer-link" href="tel:+420602485000"><span class="footer-link__icon"><img src="img/f-icon-1.png"></span><span class="footer-link__text">+420 602 485 000</span></a></div>
-                    <div class="footer-links__line"><a class="footer-link" href="mailto:info@fairyfix"><span class="footer-link__icon"><img src="img/f-icon-2.png"></span><span class="footer-link__text">info@fairyfix</span></a></div>
-                  </div>
-                </div>
-              </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="footer-links">
+              <div class="footer-links__line"><a class="footer-link" href="/"><span class="footer-link__icon">
+                    <svg>
+                      <use xlink:href="img/sprites/sprite.svg#map-f"></use>
+                    </svg></span><span class="footer-link__text">Fügnerovo nám. 5, Nové Město, Vinohrady, Praha 2</span></a></div>
+              <div class="footer-links__line"><a class="footer-link" href="tel:+420602 566 690"><span class="footer-link__icon">
+                    <svg>
+                      <use xlink:href="img/sprites/sprite.svg#phone-f"></use>
+                    </svg></span><span class="footer-link__text">+420 602 566 690</span></a></div>
+              <div class="footer-links__line"><a class="footer-link" href="/"><span class="footer-link__icon">
+                    <svg>
+                      <use xlink:href="img/sprites/sprite.svg#time-f"></use>
+                    </svg></span><span class="footer-link__text">Otevřeno Nonstop</span></a></div>
+              <div class="footer-links__line"><a class="footer-link" href="/"><span class="footer-link__icon">
+                    <svg>
+                      <use xlink:href="img/sprites/sprite.svg#whatsapp-f"></use>
+                    </svg></span><span class="footer-link__text">WhatsApp</span></a></div>
             </div>
-            <div class="footer-col">
-              <p class="footer__copyright">MalikaGlobal s.r.o.     IČ: 22264213<br>Kontaktujte nás nyní pro cenovou nabídku na konzultaci.<br>GDPR / Všeobecné obchodní podmínky</p>
+            <div class="footer-contacts"><span class="footer-contacts__label">Sledujte nás:</span>
+              <div class="footer-socials"><a class="footer-social" href="/">
+                  <svg>
+                    <use xlink:href="img/sprites/sprite.svg#instagram"></use>
+                  </svg></a><a class="footer-social" href="/">
+                  <svg>
+                    <use xlink:href="img/sprites/sprite.svg#fb"></use>
+                  </svg></a><a class="footer-social" href="/">
+                  <svg>
+                    <use xlink:href="img/sprites/sprite.svg#tt"></use>
+                  </svg></a></div>
             </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="footer__copyright">© Copyright 2025. All Rights Reserved</div>
+            <div class="footer__copyright">Web created by <a href="https://design-online.cz/" target="_blank">Design-online.cz</a></div>
           </div>
         </div>
       </footer>
@@ -263,23 +537,13 @@
                 <input class="form-input" type="text" name="input" placeholder="Jméno *">
               </div>
               <div class="info-form__column form__column--w100">
-                <input class="form-input" type="text" name="input" placeholder="Příjmení *">
+                <input class="form-input" type="tel" name="phone" placeholder="Telefon *">
               </div>
               <div class="info-form__column form__column--w100">
                 <input class="form-input" type="email" name="email" placeholder="E-mailová adresa *">
               </div>
-              <div class="info-form__column form__column--w100">
-                <input class="form-input" type="tel" name="phone" placeholder="Telefon *">
-              </div>
-              <div class="info-form__column form__column--w100">
-                <textarea class="form-input form-input--textarea" rows="5" name="text" placeholder="Jak vám můžeme pomoci? *"></textarea>
-              </div>
               <div class="info-form__column form__column--w100 form__column--button">
-                <div class="checkbox">
-                  <input type="checkbox" name="check" id="checkModal">
-                  <label for="checkModal"><span class="checkbox__box"></span>Souhlasíte s našimi podmínkami použití pro zpracování vašich údajů</label>
-                </div>
-                <button class="btn btn--green btn--small"><span>Odeslat zprávu</span></button>
+                <button class="btn btn--light-brown btn--small"><span>Odeslat zprávu</span></button>
               </div>
             </form>
           </main>
