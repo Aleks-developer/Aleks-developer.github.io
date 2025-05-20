@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26056198-d22f-4b82-8514-6073ca5772a7" name="Default Changelist" comment="" />
+    <list default="true" id="26056198-d22f-4b82-8514-6073ca5772a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/bg-price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg-price.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s-6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s-7.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/mask-hello.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/mask-hello.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sprites/intermediate-svg/map-f.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sprites/intermediate-svg/map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/sprites/intermediate-svg/map.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sprites/intermediate-svg/phone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/sprites/intermediate-svg/phone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sprites/intermediate-svg/time-f.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sprites/intermediate-svg/time.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/sprites/intermediate-svg/time.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sprites/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/sprites/sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/svg/map-f.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/svg/map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/svg/map.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/svg/time-f.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/svg/time.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/svg/time.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.min.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +68,7 @@
       <workItem from="1743416798236" duration="17000" />
       <workItem from="1744639399281" duration="726000" />
       <workItem from="1747660027178" duration="219000" />
+      <workItem from="1747730898153" duration="73000" />
     </task>
     <servers />
   </component>
