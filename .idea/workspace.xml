@@ -3,6 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="26056198-d22f-4b82-8514-6073ca5772a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg-price.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg-price.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg-price.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg-price.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo-f.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/mask-hello.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/mask-hello.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/s-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/s-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/s-4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/s-5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s-6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/s-6.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/vendor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/vendor.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +62,7 @@
       <workItem from="1747660027178" duration="219000" />
       <workItem from="1747730898153" duration="73000" />
       <workItem from="1747731594536" duration="46000" />
+      <workItem from="1747758827041" duration="68000" />
     </task>
     <servers />
   </component>
